@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0px;
+      }
+      body {
+        background-color: rgb(3, 3, 48);
+        color: white;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      nav {
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(29, 29, 128);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 35px;
+        
+      }
+      .active{
+        text-decoration: underline;
+        
+      }
+      nav ul li a{
+       text-decoration: none;
+       color:white
+      }
+      nav ul li a:hover{
+     color: rgb(100, 59, 196);
+     font-size: 1.01rem;
+        
+      }
+      .left {
+        font-size: 1.8rem;
+      }
+      .parent{
+        display: flex;
+    gap: 30px;
+       position:absolute;
+        background-color: rgb(29, 29, 128);
+        height: 400px;
+        width: 500px;
+        justify-content: center;
+        top:250px;
+        left:500px;
+        border-radius: 15px;
+        box-shadow: 3px 4px 8px rgb(137 128 219);
+      }
+     div > a{
+        border-radius: 15px;
+        box-shadow: 3px 4px 8px rgb(137 128 219);
+        position: relative;
+    display: flex;
+    top: 140px;
+    height:125px;
+    float: left;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Bhavana's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a  href="\">Home</a></li>
+              <li class="about"><a href="\about.html">About</a></li>
+              <li><a href="\project.html">Projects</a></li>
+              <li><a class="active" href="\socials.html">Socials</a></li>
+             
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="parent">
+        <a href=" https://www.linkedin.com/in/bhavana-r-m-73351023b"><img src="linkedin.png"></a>
+        <a href="https://github.com/bhavana-rm"><img src="github.jpg"></a>
+        
+      </div>
+    
+</body>
+</html>

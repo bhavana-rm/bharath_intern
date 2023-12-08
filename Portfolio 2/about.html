@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+   
+        <style>
+      * {
+        margin: 0;
+        padding: 0px;
+      }
+      body {
+        background-color: rgb(3, 3, 48);
+        color: white;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      nav {
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(29, 29, 128);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 35px;
+        
+      }
+      nav ul li a{
+       text-decoration: none;
+       color:white
+      }
+      nav ul li a:hover{
+     color: rgb(100, 59, 196);
+     font-size: 1.01rem;
+        
+      }
+      .left {
+        font-size: 1.8rem;
+      }
+      .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 25px 0;
+      }
+      .first div {
+        width: 30%;
+        margin: 100px;
+      }
+      .lefts {
+        font-size: 1.6rem;
+        justify-content: center;
+      }
+      
+      .rights img {
+        border-radius: 100px;
+        width: 80%;
+      }
+      #element{
+        color:rgb(100, 59, 196) ;
+      }
+      .active{
+        text-decoration: underline;
+        
+      }
+      .parent{
+        display: flex;
+    gap: 30px;
+       position:absolute;
+        background-color: rgb(29, 29, 128);
+        height: 400px;
+        width: 600px;
+        justify-content: center;
+        top:100px;
+        left:80px;
+        border-radius: 15px;
+        box-shadow: 3px 4px 8px rgb(137 128 219);
+      }
+      p{
+        justify-content: center;
+        text-align: justify;
+    position: absolute;
+    top: 81px;
+      }
+    </style>
+    
+    <body>
+</head>
+<header>
+    <nav>
+      <div class="left">Bhavana's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a  href="\">Home</a></li>
+          <li class="about"><a class="active" href="\about.html">About</a></li>
+          <li><a href="\project.html">Projects</a></li>
+          <li><a  href="\socials.html">Socials</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="first">
+    <div class="lefts">
+      <div class="parent">
+        <p style="text-align: justify;padding: 25px;">Hello there! I'm Bhavana. I thrive on challenges and love solving coding problems.Proficient in C, Java, Python, SQL, and frontend development, with a strong foundation in data structures and algorithms (DSA) and experience in deep neural networks.</p></div>
+      <span id="element"></span>
+    </div>
+    <div class="rights">
+      <img src="coding.jpg" alt="" />
+    </div>
+  </section>
+  
+   
+   
+
+</body>
+</html>
